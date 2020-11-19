@@ -1,0 +1,332 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: rgb(0, 0, 0);
+  } 
+  /*navvvvvvvvvvvvvvvvvvvvvvvbarrrrrrrrrrrrrrrrrrrrrrrrrrr*/
+nav{
+    background: #000000;
+    height: 80px;
+    width: 100%;
+    box-shadow: 0 0 15px #9900ff;
+  }
+  nav:hover{
+    box-shadow: 0 0 15px #2f00ff;}
+  label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0px 150px;
+    font-weight: bold;
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  nav a.active,.aaa:hover{
+    background: #ff0000;
+    transition: 0.9s;
+    color: rgb(250, 250, 250);
+    text-decoration-line: none;
+    font-style: italic;
+    font-size: 18px;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  @media (max-width: 1024px){
+    .checkbtn{
+      display: block;
+    }
+    .ull{
+      z-index: 100000;
+      position: fixed;
+      width: 100%;
+      height: 625px;
+      background: #000000;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all 0.5s;
+    }
+    nav .ull li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav .ull li a{
+      font-size: 20px;
+    }
+   
+    #check:checked ~ .ull{
+      left: 0;
+    }
+  }
+  /* navbar verticalllllll*/
+  @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+
+  body {
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+  }
+  /*siiiiidedeedeeed navvvv*/
+  #sidebar {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: black;
+    width: 100%;
+    margin-top: 40px;
+  
+  }
+  .cos{
+  color:#CFD8DC;
+  font-size: 20px;
+  font-family: 'Alata', sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  padding: 15px;
+  }
+  @media (max-width: 1024px){
+  .cos{
+    width: 750px;
+    display: flex;
+    justify-content: center;
+  }
+  }
+  .cos:hover{
+  color: red;
+  text-decoration-line: none;
+  }
+
+#active ,#active:hover{
+    background-color: rgb(255, 0, 0);
+    color: whitesmoke;
+    border-radius: 10%;
+}
+     /*hooooooooooommmmmmmmmmmmmeeeeeeeeeeeeeeeeee11*/
+section {
+    padding-top: 3%;
+  }
+  .prpartie {
+      background-image: url(home1.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 500px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      /* justify-content: center; */
+      justify-content: center;
+      padding-right: 14%;
+      padding-bottom: 10%;
+  }
+  .prpartie:hover {
+    box-shadow: 0 0 11px rgb(255, 0, 0);
+    transition: 0.9s;
+  }
+  section #hun {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Noto Sans", sans-serif;
+    padding-right: 5%;
+    font-style: italic;
+  }
+  section .pun {
+    color: white;
+    font-size: 24px;
+    font-weight: normal;
+    font-family: "Inconsolata", monospace;
+  }
+  section #prpp {
+      background-color: #1f1f1f;
+      width: 400px;
+      height: 70px;
+      padding: 15px 40px;
+      border-radius: 50px;
+      margin: px;
+      /* border: 13px; */
+      margin: 20px;
+  }
+  section #prpp:hover{
+    background-color: red;
+    box-shadow: 0 0 8px rgb(102, 102, 102);
+    transition: 0.9s;
+    font-style: italic;
+  
+  }
+  section .prpw {
+    color: white;
+    font-size: 28px;
+    text-decoration-line: none;
+    font-family: "Inconsolata", monospace;
+  }
+  section .prpw:hover {
+    color: white;
+  }
+     /*carrrrrrrrrrdssssssssssssssssss*/
+         /*ccccaaarrrrrddddddddddd111111111*/
+ @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+ .card{
+   background-color: black;
+   border-radius: 2%;
+ }
+ .card:hover{
+   box-shadow: 0 0 15px red;
+ }
+ .card-title{
+   color: white;
+   font-size: 20px;
+   display: flex;
+   justify-content: center;
+   font-family: 'Alata', sans-serif;
+ }
+ .card-text{
+   color: white;
+   font-size: 14px;
+   font-family: 'Alata', sans-serif;
+   display: flex;
+   justify-content: flex-start;
+ }
+ .qwert{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   padding-top: 18px;
+ }
+ .card-prix{
+   color: rgb(255, 0, 0);
+   display: flex;
+   justify-content: center;
+ }
+ .cards-lien{
+   display: flex;
+   justify-content: center;
+   color:rgba(255, 0, 0, 0.384) ;
+   font-size: 22px;
+ }
+ .cards-lien:hover{
+   color: #ff0000;
+   text-decoration-line: none;
+ }
+ .paaap{
+   color: white;
+   font-size: 20px;
+   display: flex;
+ }
+ 
+ .modal a.close-modal {
+   position: absolute;
+   top: -12.5px;
+   right: -12.5px;
+   display: block;
+   width: 30px;
+   height: 30px;
+   text-indent: -9999px;
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAAXNSR0IArs4c6QAAA3hJREFUaAXlm8+K00Acx7MiCIJH/yw+gA9g25O49SL4AO3Bp1jw5NvktC+wF88qevK4BU97EmzxUBCEolK/n5gp3W6TTJPfpNPNF37MNsl85/vN/DaTmU6PknC4K+pniqeKJ3k8UnkvDxXJzzy+q/yaxxeVHxW/FNHjgRSeKt4rFoplzaAuHHDBGR2eS9G54reirsmienDCTRt7xwsp+KAoEmt9nLaGitZxrBbPFNaGfPloGw2t4JVamSt8xYW6Dg1oCYo3Yv+rCGViV160oMkcd8SYKnYV1Nb1aEOjCe6L5ZOiLfF120EjWhuBu3YIZt1NQmujnk5F4MgOpURzLfAwOBSTmzp3fpDxuI/pabxpqOoz2r2HLAb0GMbZKlNV5/Hg9XJypguryA7lPF5KMdTZQzHjqxNPhWhzIuAruOl1eNqKEx1tSh5rfbxdw7mOxCq4qS68ZTjKS1YVvilu559vWvFHhh4rZrdyZ69Vmpgdj8fJbDZLJpNJ0uv1cnr/gjrUhQMuI+ANjyuwftQ0bbL6Erp0mM/ny8Fg4M3LtdRxgMtKl3jwmIHVxYXChFy94/Rmpa/pTbNUhstKV+4Rr8lLQ9KlUvJKLyG8yvQ2s9SBy1Jb7jV5a0yapfF6apaZLjLLcWtd4sNrmJUMHyM+1xibTjH82Zh01TNlhsrOhdKTe00uAzZQmN6+KW+sDa/JD2PSVQ873m29yf+1Q9VDzfEYlHi1G5LKBBWZbtEsHbFwb1oYDwr1ZiF/2bnCSg1OBE/pfr9/bWx26UxJL3ONPISOLKUvQza0LZUxSKyjpdTGa/vDEr25rddbMM0Q3O6Lx3rqFvU+x6UrRKQY7tyrZecmD9FODy8uLizTmilwNj0kraNcAJhOp5aGVwsAGD5VmJBrWWbJSgWT9zrzWepQF47RaGSiKfeGx6Szi3gzmX/HHbihwBser4B9UJYpFBNX4R6vTn3VQnez0SymnrHQMsRYGTr1dSk34ljRqS/EMd2pLQ8YBp3a1PLfcqCpo8gtHkZFHKkTX6fs3MY0blKnth66rKCnU0VRGu37ONrQaA4eZDFtWAu2fXj9zjFkxTBOo8F7t926gTp/83Kyzzcy2kZD6xiqxTYnHLRFm3vHiRSwNSjkz3hoIzo8lCKWUlg/YtGs7tObunDAZfpDLbfEI15zsEIY3U/x/gHHc/G1zltnAgAAAABJRU5ErkJggg==);
+   margin-top: 3%;
+   margin-right: 3%;
+ }
+ .qwert{
+     padding-top: 18px;
+ }
+ /*ccccaaaaaarrrrrrdddddddddddddd22222222222*/
+ .whiteram{
+    background-color: black;
+    border-radius: 2%;
+  }
+  .whiteram:hover{
+    box-shadow: 0 0 15px rgb(2, 57, 121);
+  }
+   /*ccccaaaaaarrrrrrdddddddddddddd333333333*/
+ .blackram{
+    background-color: black;
+    border-radius: 2%;
+  }
+  .blackram:hover{
+    box-shadow: 0 0 15px rgb(0, 206, 17);
+  }
+     /*ccccaaaaaarrrrrrdddddddddddddd44444*/
+ .qwers{
+    background-color: black;
+    border-radius: 2%;
+  }
+  .qwers:hover{
+    box-shadow: 0 0 15px rgb(206, 252, 0);
+  }
+   /*mod2 azuuuuuzzzzzzzz*/
+   #HDD{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    flex-wrap: wrap;
+  }
+  /*carrrrrrrrrrdddddd11111111*/
+  .pour{
+    background-color: black;
+    border-radius: 2%;
+  }
+  .pour:hover{
+    box-shadow: 0 0 15px rgb(7, 99, 219);
+  }
+    /*carrrrrrrrrrdddddd1222222222*/
+    .lelele{
+        background-color: black;
+        border-radius: 2%;
+      }
+      .lelele:hover{
+        box-shadow: 0 0 15px rgb(255, 92, 92);
+      }
+          /*carrrrrrrrrrdddddd333333333*/
+    .lalala{
+        background-color: black;
+        border-radius: 2%;
+      }
+      .lalala:hover{
+        box-shadow: 0 0 15px rgb(152, 4, 221);
+      }
+                /*carrrrrrrrrrdddddd444444444*/
+    .lalal{
+        background-color: black;
+        border-radius: 2%;
+      }
+      .lalal:hover{
+        box-shadow: 0 0 15px rgb(40, 1, 58);
+      }
+    
+
+
+
+
+    
